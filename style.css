@@ -33,7 +33,6 @@ ul {
 li {
     margin-left: 50px;
     margin-right: 50px;
-    border: 1px solid white;
     box-sizing: border-box;
     text-align: center;
     width: 100px;
@@ -54,8 +53,7 @@ p {
 }
 li:hover {
     transition: 0.75s;
-    width: 125px;
-    height: 75px;
+    transform: scale(1.1, 1.1);
 }
 li:hover p {
     line-height: 75px;
